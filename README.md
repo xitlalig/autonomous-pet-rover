@@ -28,9 +28,12 @@ Coming soon ...
 - Raspberry Pi + Camera
 
 ## Progress
-Using YOLO + filtering to only detect dogs
-<img width="955" height="757" alt="Screenshot (12)" src="https://github.com/user-attachments/assets/f2f9eb90-70b0-4a79-b4ae-6a4768e51712" />
+(3/21/26) Using YOLO + filtering to only detect dogs
 <img width="955" height="766" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/93f6b546-f29e-4ac1-a13a-c9e5c6967f08" />
+
+(3/26/26) Current chassis setup. Motor drives with button toggle!
+![IMG_4772](https://github.com/user-attachments/assets/8651cf10-c078-48ba-ac59-904558e10914)
+
 
 ## Challenges & Learning
 ...
