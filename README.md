@@ -35,6 +35,7 @@ Coming soon ...
 <img width="500" alt="IMG_4772" src="https://github.com/user-attachments/assets/8651cf10-c078-48ba-ac59-904558e10914" />
 
 (3/30/26) Setup update! Added 3 ultrasonic sensors, p.s. I ran into some issues with my sensors. Read more about it in [Challenges & Learning](#challenges--learning)
+
 <img width="500" alt="IMG_4787" src="https://github.com/user-attachments/assets/dfa682d2-125b-49f9-b730-678866f90f13" />
 
 ## Challenges & Learning
