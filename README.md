@@ -29,11 +29,18 @@ Coming soon ...
 
 ## Progress
 (3/21/26) Using YOLO + filtering to only detect dogs
-<img width="955" height="766" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/93f6b546-f29e-4ac1-a13a-c9e5c6967f08" />
+<img width="500" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/93f6b546-f29e-4ac1-a13a-c9e5c6967f08" />
 
 (3/26/26) Current chassis setup. Motor drives with button toggle!
-![IMG_4772](https://github.com/user-attachments/assets/8651cf10-c078-48ba-ac59-904558e10914)
+<img width="500" alt="IMG_4772" src="https://github.com/user-attachments/assets/8651cf10-c078-48ba-ac59-904558e10914" />
 
+(3/30/26) Setup update! Added 3 ultrasonic sensors, p.s. I ran into some issues with my sensors. Read more about it in [Challenges & Learning](#challenges--learning)
+<img width="500" alt="IMG_4787" src="https://github.com/user-attachments/assets/dfa682d2-125b-49f9-b730-678866f90f13" />
 
 ## Challenges & Learning
-...
+**(3/30/36) Ultrasonic Sensor Problem**
+- My initial issue came from all 3 sensors returning 999, which meant that none of my sensors were receiving an echo signal back.
+- Originally I used a voltage divider with 2 10kΩ resistors, which should output 2.5V when hooked up to the VIN pin on the ESP32.
+- 2.5V should work in theory, but Amazon reviews of the product suggested 3V minimum in order to get a reading.
+- So I got rid of the voltage divider and hooked my ECHO pin directly to the 3V3 pin on the ESP32, and everything was resolved!
+- **Solution:** Power the HC-SR04 VCC from the ESP32 3V3 pin instead of VIN. Since the sensor runs on 3.3V, the ECHO pin also outputs 3.3V which is safe for the ESP32 GPIO directly, no voltage divider needed. Final pins used: TRIG_F=12, ECHO_F=4, TRIG_FL=22, ECHO_FL=23, TRIG_FR=18, ECHO_FR=19.
