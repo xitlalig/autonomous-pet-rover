@@ -38,6 +38,11 @@ Coming soon ...
 
 <img width="500" alt="IMG_4787" src="https://github.com/user-attachments/assets/dfa682d2-125b-49f9-b730-678866f90f13" />
 
+
+(4/05/26) Currently working on integrating my raspberry pi into the project, as well as collecting data to start training my own ai model! Heres my first pic with my ArduCam and Raspberry Pi 4:
+<img width="500" alt="test" src="https://github.com/user-attachments/assets/4c976bd2-0a4c-47fd-ba90-8d071d4338c2" />
+
+
 ## Challenges & Learning
 **(3/30/36) Ultrasonic Sensor Problem**
 - My initial issue came from all 3 sensors returning 999, which meant that none of my sensors were receiving an echo signal back.
