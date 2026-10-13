@@ -1,4 +1,4 @@
-# autonomous-pet-rover
+# autonomous-pet-rover (PROJECT IS ON PAUSE)
 An AI-powered autonomous rover that navigates a home environment, detects household pets, and dispenses treats based on recognition.
 
 ## Features
